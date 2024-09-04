@@ -1,0 +1,96 @@
+
+
+html ,body {
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+     font-weight:500;
+     
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+}
+
+.navbar-nav > li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #80a45c;   
+}
+
+nav li a {
+    color:white !important;
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    height: 90vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-control-prev-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important; /* Change this to your desired color */
+}
+
+.carousel-control-next-icon {
+
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+.carousel-caption {
+
+     background-color: #224879;
+     opacity: 0.7;
+     
+}
+ 
+ 
+#headerSection {
+   
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000; /* Ensure the header is above other content */
+    transition: top 0.3s;
+}
+
+.hidden {
+    top: -100px; /* Adjust based on your header height */
+}
+
+main {
+    margin-top: 100px; /* Adjust based on your header height */
+}
+
+
+
+.aboutcompany  {
+    
+    background-color: #80a45c;
+    color:white;
+    font-size: 1rem;
+    /* text-align: start ; */
+    /* text-justify: inter-word; */
+}
+
+h1 {
+    padding: 30px 0px 50px 0px;
+    font-weight: bold;
+    color:#80a45c;
+    text-shadow: 3px 3px 3px  #224879;
+    
+  }
+
+  .companyname {
+     text-transform: uppercase;
+     color: #224879;
+  }
