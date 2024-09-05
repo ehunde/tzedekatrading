@@ -72,14 +72,12 @@ main {
 }
 
 
-
 .aboutcompany  {
     
     background-color: #80a45c;
     color:white;
     font-size: 1rem;
-    /* text-align: start ; */
-    /* text-justify: inter-word; */
+    
 }
 
 h1 {
@@ -94,3 +92,45 @@ h1 {
      text-transform: uppercase;
      color: #224879;
   }
+
+ #services ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;
+  }
+
+  #services li {
+    position: relative;
+    padding-left: 1.5em; /* space to preserve indentation on wrap*/
+  }
+
+ #services ul li:before {
+    position: absolute;
+    content: '\2714'; /* Unicode for tick mark */
+    left:0;
+    width: 1em;
+    height: 1em;
+    margin-right: 7px; /*Space between tick mark and text */ 
+    
+  }
+
+  .card img {
+    width: 100%; 
+    /* max-height:100%;  */
+    height: 38vh; 
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#ourteam p{
+    color: #80a45c;
+    font-size: 1em;
+    text-align: start;
+}
+
+
+.teamicons {
+    
+    align-items: center;
+
+}
