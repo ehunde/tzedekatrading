@@ -4,8 +4,9 @@ body {
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
      font-weight: 500;
      position: relative;
-    
+      margin-top: 140px;   
 }
+
 
 .navbar-nav {
     width: 100%;
@@ -62,12 +63,7 @@ nav li a {
     z-index: 1000; /* Ensure the header is above other content */
     transition: top 0.3s;
     height: auto;
-   
-}
-
-
-main {
-     margin-top: 140px;  /* Adjust based on your header height */
+    
 }
 
 

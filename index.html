@@ -17,14 +17,14 @@
     <link rel="stylesheet"  type="text/css" href="css/custom.css">
 
     <!-- bootstrap core javascript -->
-    <script  type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script  type="text/javascript" src="js/bootstrap.bundle.min.js" defer ></script>
 
     <!-- custom javascript -->
-    <script  type="text/javascript" src="js/custom.js"defer></script>
+    <script  type="text/javascript" src="js/custom.js" defer></script>
 
     
 </head>
-<body data-bs-spy="scroll" data-bs-target="#pageNavigation" data-bs-smooth-scroll="true"   tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#pageNavigation" data-bs-smooth-scroll="true" data-bs-threshold="0,1" data-bs-root-margin="-30% 0% -70%"   tabindex="0">
         <!-- header section start -->
         <header  class="headerSection" >
             <div class="row" id="logoback">
@@ -49,18 +49,18 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="#home">Home <span class="sr-only"></span></a>
+                                            <a class="nav-link" href="#home">Home </a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item ">
                                             <a class="nav-link" href="#about">About</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#services">Services</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item ">
                                             <a class="nav-link" href="#ourteam">Team</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item ">
                                             <a class="nav-link" href="#contact">Contact</a>
                                         </li>
                                 </ul>
@@ -73,11 +73,11 @@
         <!-- header section ends here -->
         
         <!-- mains section start -->
-        <main>
+        <!-- <main> -->
             <!-- carousel section start -->
             
-                  <div class="row" id ="home" >
-                        <div class="col-md-12">
+                  <div class="row"  >
+                        <div class="col-md-12" id ="home">
                                     <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
                                           <div class="carousel-indicators">
                                           <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -125,7 +125,7 @@
           <!-- About section start -->
             
              
-                  <div class="container-fluid  p-5 " id="about">
+                  <div class="container-fluid  p-5" id="about">
                         <h1 class="text-center" >About Us</h1>
                         <div class="aboutcompany rounded-1 p-5">
                               <h4 class="text-center p-2"> COMPANY INFORMATION </h4>
@@ -141,7 +141,7 @@
                               </p>
                         
                               
-                              <p >
+                              <p>
                               
                                     <span class="companyname">tzedeka trading (pty) ltd</span> is 100&#37 black owned a civil, mechanical engineering and construction supply company with excellent 
                                     capabilities over a wide range of different technical and maintenance fields in the civil and mechanical engineering industry
@@ -311,113 +311,113 @@
                                       
                               </div>
                       </div>
-                 </div>
+               </div>
 
             
             <!-- Services section end -->
 
              <!-- Out team section-->
                 
-                        <div class="container-fluid p-5" id="ourteam">
-                            <h1 class="text-center">Our Team</h1>
-                            <div class="row">
-                                  <div class="col-md-6 shadow text-center teamicons">
-                                    <img src="images/people.svg" class="p-5 " alt="people"> 
-                                  </div>
-                                  <div class="col-md-6 ">
-                                        <h3 class="text-center">MANAGEMENT </h3>
-                                        <p class="p-5">
-                                              The  company was founded by Sipho Clement Shingange who is also the managing director.
-                                        </p>
-                                        <h3 class="text-center">HUMAN CAPITAL</h3>
-                                        <p class="p-5"> 
-                                              TZEDEKA TRADING is in support of local socio-economic upliftment by 
-                                              employing the additional Human Resources of part time staff from the local 
-                                              communities areas within which project are located.
-                                        </p>
-                                  </div>
-
-                            </div>
-                            <div class="row">
-                                  <div class="col-md-6">
-                                          <h3 class="text-center p-5">PEOPLE DEVELOPMENT</h3>
-                                          <p class="p-5">
-                                              TZEDEKA TRADING promotes the empowerment of communities and is 
-                                              determined to leave a legacy in the areas which will operate in. We 
-                                              therefore have to uplift local community members in all our areas of 
-                                              operations through skills transfer and providing employment.
-                                          </p>
-                                  </div>
-                                  <div class="col-md-6 shadow text-center teamicons ">
-                                    <img src="images/persondevelopment.svg" class="pb-5" alt="peopledevelopment">
-                                  </div>
-                            </div>
+             <div class="container-fluid p-5" id="ourteam">
+                  <h1 class="text-center">Our Team</h1>
+                  <div class="row">
+                        <div class="col-md-6 shadow text-center teamicons">
+                        <img src="images/people.svg" class="p-5 " alt="people"> 
+                        </div>
+                        <div class="col-md-6 ">
+                              <h3 class="text-center">MANAGEMENT </h3>
+                              <p class="p-5">
+                                    The  company was founded by Sipho Clement Shingange who is also the managing director.
+                              </p>
+                              <h3 class="text-center">HUMAN CAPITAL</h3>
+                              <p class="p-5"> 
+                                    TZEDEKA TRADING is in support of local socio-economic upliftment by 
+                                    employing the additional Human Resources of part time staff from the local 
+                                    communities areas within which project are located.
+                              </p>
                         </div>
 
+                  </div>
+                  <div class="row">
+                        <div class="col-md-6">
+                              <h3 class="text-center p-5">PEOPLE DEVELOPMENT</h3>
+                              <p class="p-5">
+                                    TZEDEKA TRADING promotes the empowerment of communities and is 
+                                    determined to leave a legacy in the areas which will operate in. We 
+                                    therefore have to uplift local community members in all our areas of 
+                                    operations through skills transfer and providing employment.
+                              </p>
+                        </div>
+                        <div class="col-md-6 shadow text-center teamicons ">
+                        <img src="images/persondevelopment.svg" class="pb-5" alt="peopledevelopment">
+                        </div>
+                  </div>
+             </div>
 
-                        <!-- section contact start -->
-                        <div class="container-fluid p-5" id="contact">
-                              <h1 class="text-center">Contact</h1>
-                                    <div class="row row-cols-1 row-cols-md-3" >
-                                          <div class="col  pt-2 pb-4 ">
-                                            <div class="location  p-2">
-                                              <ul>
-                                                  <li>
-                                                    <a href="https://maps.app.goo.gl/rHGC3z3BhXUKD6y96" target="_blank"> 
-                                                       Physical Address
-                                                    </a> 
-                                                  </li>
-                                                  <br>
-                                                  <li> 
-                                                    <a href="https://maps.app.goo.gl/rHGC3z3BhXUKD6y96" target="_blank"> C0222 MAWENI NKAMBAKO NWAMITWA  <br/> TZANEEN<br/> 0883
-                                                      
-                                                    </a>
-                                                  </li>
-                                              </ul>
-                                            </div>
-                                          </div>
-                              
-                                          <div class="col  pt-2 pb-4 ">
-                                            <div class="emailus  p-2">
-                                              <ul>
-                                                  <li>
-                                                    <a href="mailto:tzedekatrading@gmail.com" target="_blank" rel="noopener noreferrer"> 
-                                                      Email us
-                                                    </a> 
-                                                  </li>
-                                                  <br/>
-                                                  <li> 
-                                                    <a href="mailto:tzedekatrading@gmail.com" target="_blank" rel="noopener noreferrer"> 
-                                                      tzedekatrading@gmail.com
-                                                    </a>
-                                                  </li>
-                                              </ul>
-                                            </div>
-                                          </div>
-                              
-                                          <div class="col  pt-2 pb-4 ">
-                                            <div class="callus  p-2">
-                                              <ul>
-                                                  <li>
-                                                    <a href="tel: +27 73 981 8350" target="_blank" > 
-                                                        Call us
-                                                    </a> 
-                                                  </li>
-                                                  <br/>
-                                                  <li> 
-                                                    <a href="tel: +27 073 981 8350" target="_blank" > 
-                                                         +27 73 981 8350
-                                                    </a>
-                                                  </li>
-                                              </ul>
-                                            </div>
-                                          </div>
+
+            <!-- section contact start -->
+            <div class="container-fluid p-5" id="contact">
+                  <h1 class="text-center">Contact</h1>
+                        <div class="row row-cols-1 row-cols-md-3" >
+                              <div class="col  pt-2 pb-4 ">
+                                    <div class="location  p-2">
+                                    <ul>
+                                          <li>
+                                          <a href="https://maps.app.goo.gl/rHGC3z3BhXUKD6y96" target="_blank"> 
+                                                Physical Address
+                                          </a> 
+                                          </li>
+                                          <br>
+                                          <li> 
+                                          <a href="https://maps.app.goo.gl/rHGC3z3BhXUKD6y96" target="_blank"> C0222 MAWENI NKAMBAKO NWAMITWA  <br/> TZANEEN<br/> 0883
+                                          
+                                          </a>
+                                          </li>
+                                    </ul>
                                     </div>
+                              </div>
+                  
+                              <div class="col  pt-2 pb-4 ">
+                                    <div class="emailus  p-2">
+                                    <ul>
+                                          <li>
+                                          <a href="mailto:tzedekatrading@gmail.com" target="_blank" rel="noopener noreferrer"> 
+                                          Email us
+                                          </a> 
+                                          </li>
+                                          <br/>
+                                          <li> 
+                                          <a href="mailto:tzedekatrading@gmail.com" target="_blank" rel="noopener noreferrer"> 
+                                          tzedekatrading@gmail.com
+                                          </a>
+                                          </li>
+                                    </ul>
+                                    </div>
+                              </div>
+                  
+                              <div class="col  pt-2 pb-4 ">
+                                    <div class="callus  p-2">
+                                    <ul>
+                                          <li>
+                                          <a href="tel: +27 73 981 8350" target="_blank" > 
+                                                Call us
+                                          </a> 
+                                          </li>
+                                          <br/>
+                                          <li> 
+                                          <a href="tel: +27 073 981 8350" target="_blank" > 
+                                                +27 73 981 8350
+                                          </a>
+                                          </li>
+                                    </ul>
+                                    </div>
+                              </div>
                         </div>
-                        <!-- section contact end -->
+            </div>
+            <!-- section contact end -->
 
             
-        </main>
+        <!-- </main> -->
         <footer class="text-center text-white " >
             <hr class=" footerruler my-5 " />
 
